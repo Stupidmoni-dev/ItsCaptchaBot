@@ -122,7 +122,9 @@ async def _new_members(msg: Message):
 # при нажатии кнопки
 @bot.callback_query_handler(func=lambda c: c.data.startswith('captcha'))
 async def _captcha(c):
-    code = c.data.split(':')[-1]
+    *_, user_id, code = c.data.split(':')
+    if c.from_user.id != int(user_id):
+        return await bot.answer_callback_query(c.id, "Это не твоя карта!", True)
 
     # если код совпадает
     if await db.get_captcha(c.from_user.id) == code:
