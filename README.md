@@ -1,6 +1,8 @@
 # ItsCaptchaBot  
 Captcha for your Telegram chat
 
+[Переключиться на русский](README.ru.md)
+
 **BOT: [@Its_captcha_bot](https://t.me/Its_captcha_bot)**
 
 ![image](https://github.com/user-attachments/assets/bb5f821c-d14b-4cbf-94e7-ef3360dae172)
