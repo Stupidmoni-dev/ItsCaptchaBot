@@ -1,2 +1,2 @@
-# токен бота от @BotFather
-TOKEN = "сюда"
+# bot token from @BotFather
+TOKEN = ""
