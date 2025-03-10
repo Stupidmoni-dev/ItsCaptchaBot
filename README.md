@@ -1,36 +1,36 @@
 # ItsCaptchaBot  
-Капча для вашего чата в Telegram
+Captcha for your Telegram chat
 
 **BOT: [@Its_captcha_bot](https://t.me/Its_captcha_bot)**
 
 ![image](https://github.com/user-attachments/assets/bb5f821c-d14b-4cbf-94e7-ef3360dae172)
 
-### Как пользоваться?  
-Добавь [бота](https://t.me/Its_captcha_bot) в свой чат, дай ему право удалять сообщения и ограничивать участников чата. Готово! Теперь бот будет показывать капчу каждому новому участнику!
+### How to use?  
+Add [the bot](https://t.me/Its_captcha_bot) to your chat, give it the permission to delete messages and restrict participants. Done! Now, the bot will show a captcha to each new participant!
 
-### Что будет если не пройти капчу?  
-Если не пройти капчу за 10 минут, то бот просто кикнет участника из чата.
+### What happens if you don’t pass the captcha?  
+If you don't pass the captcha within 10 minutes, the bot will simply kick the participant out of the chat.
 
-# Установка
-1. Скачай и распакуй код бота в удобную тебе папку либо склонируй репозиторий (`git clone https://github.com/RimMirK/ItsCaptchaBot`)
-2. (опционально) Создай и войди в виртуальную среду: `python -m venv .venv`, `.venv\Scripts\activate`
-3. Установи все зависимости: `pip install -r requirements.txt`
-4. Вставь токен бота от [@BotFather](https://t.me/BotFather) в `config.py`
-5. Запускай бота командой `python main.py`
+# Installation
+1. Download and extract the bot’s code to any folder or clone the repository (`git clone https://github.com/RimMirK/ItsCaptchaBot`)
+2. (optional) Create and activate a virtual environment: `python -m venv .venv`, `.venv\Scripts\activate`
+3. Install all dependencies: `pip install -r requirements.txt`
+4. Insert the bot token from [@BotFather](https://t.me/BotFather) into `config.py`
+5. Start the bot with the command `python main.py`
 
-## Мультиязычная поддержка  
-Бот поддерживает следующие языки:
+## Multilingual Support  
+The bot supports the following languages:
 
-- العربية (Arabic)
+- <span dir="ltr">العربية</span> (Arabic)
 - Беларуская (Belarusian)
 - বাংলা (Bengali)
 - Čeština (Czech)
 - Deutsch (German)
 - English
 - Español (Spanish)
-- فارسی (Persian)
+- <span dir="ltr">فارسی</span> (Persian)
 - Français (French)
-- עברית (Hebrew)
+- <span dir="ltr">עברית</span> (Hebrew)
 - हिन्दी (Hindi)
 - Magyar (Hungarian)
 - Հայերեն (Armenian)
@@ -56,7 +56,7 @@
 - Tiếng Việt (Vietnamese)
 - 中文 (Chinese)
 
-Буду рад, если кто-то из вас, кто владеет этими языками, поможет исправить переводы или добавит новый язык. Обращайтесь через раздел "Связь" на русском, украинском или английском!
+I would be happy if anyone who knows these languages could help fix translations or add a new language. Feel free to reach out through the "Contact" section in Russian, Ukrainian, or English!
 
-## Связь  
-Разработчик : [@RimMirK](https://t.me/RimMirK)
+## Contact  
+Developer: [@RimMirK](https://t.me/RimMirK)
